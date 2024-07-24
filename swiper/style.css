@@ -1,0 +1,93 @@
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.content-wrapper {
+    position: absolute;
+    left: 0;
+    top:0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%
+}
+
+.content-wrapper .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.content-wrapper .content .left {
+    flex: 0 0 30%;
+    padding:30px;
+    background-color: rgb( 0 0 0 / 50% );
+    color:#fff;
+    border-radius:20px;
+}
+
+.content-wrapper .content .left h2 {
+    font-size: 40px;
+    margin:0 0 30px 0;
+}
+.content-wrapper .content .left h3 {
+    flex:0 0 70%;
+    font-size: 30px;
+    font-weight: normal;
+    margin:0;
+}
+
+.content-wrapper .content .left h3 span {
+    font-weight: bold;
+}
+
+.content-wrapper .content .right {
+    align-self:end;
+}
+
+.content-wrapper .content .right button {
+    background-color: #12FCF7;
+    border:1px solid #fff;
+    padding:10px 40px;
+    font-weight: bold;
+    cursor:pointer;
+    transition:all .3s ease;
+    transform: skewX(-20deg);
+}
+
+.content-wrapper .content .right button:hover {
+    background-color: rgb( 0 0 0 / 50% );
+    color:#fff;
+}
